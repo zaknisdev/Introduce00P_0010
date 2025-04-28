@@ -6,4 +6,11 @@ class persegi_panjang{
     int panjang;
     int lebar;
     int luas;
+
+    public:
+
+};
+
+int main(){
+    
 }
