@@ -21,7 +21,7 @@ class Mobil
         cin >> harga_mobil;
 
     }
-    
+
     void output_data()
     {
         cout << "Harga Mobil = " << harga_mobil << endl;
@@ -34,4 +34,5 @@ int main()
     zaki.inputdata();
     cout << "Nama Mobil = " << zaki.nama_mobil << endl;
     cout << "Tipe Mobil = " << zaki.tipe_mobil << endl;
-}
+    zaki.output_data();
+}  
