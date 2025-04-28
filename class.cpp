@@ -21,10 +21,11 @@ class Mobil
         cin >> harga_mobil;
 
     }
-
     
-
-    
+    void output_data()
+    {
+        cout << "Harga Mobil = " << harga_mobil << endl;
+    }
 };
 
 int main()
