@@ -1,15 +1,18 @@
 #include <iostream>
 using namespace std;
 
-class Mobil {
+class Mobil 
+{
     public:
     string nama_mobil;
     string tipe_mobil;
+
     private:
     int harga_mobil;
 
     public:
-    void inputdata(){
+    void inputdata()
+    {
         cout << "Masukkan Nama Mobil = ";
         cin >> nama_mobil;
         cout << "Masukkan Tipe Mobil = ";
@@ -19,10 +22,15 @@ class Mobil {
 
     }
 
+    
 
     
 };
 
-int main(){
+int main()
+{
     Mobil zaki;
+    zaki.inputdata();
+    cout << "Nama Mobil = " << zaki.nama_mobil << endl;
+    cout << "Tipe Mobil = " << zaki.tipe_mobil << endl;
 }
