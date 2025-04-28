@@ -30,4 +30,7 @@ class persegipanjang{
 int main()
 {
     persegipanjang zaki;
+    zaki.inputdata();
+    zaki.hitungluas();
+    zaki.outputdata();
 }
