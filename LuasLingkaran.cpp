@@ -27,6 +27,7 @@ class persegipanjang{
     
 };
 
-int main(){
-
+int main()
+{
+    persegipanjang zaki;
 }
