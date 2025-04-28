@@ -2,11 +2,23 @@
 using namespace std;
 
 class Mobil {
-    
+    public:
     string nama_mobil;
     string tipe_mobil;
-    
+    private:
     int harga_mobil;
+
+    public:
+    void inputdata(){
+        cout << "Masukkan Nama Mobil = ";
+        cin >> nama_mobil;
+        cout << "Masukkan Tipe Mobil = ";
+        cin >> tipe_mobil;
+        cout << "Masukkkan Harga Mobil = ";
+        cin >> harga_mobil;
+
+    }
+
 
     
 };
