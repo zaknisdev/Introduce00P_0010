@@ -15,11 +15,15 @@ class persegipanjang{
         cout << "Masukkan lebar = ";
         cin >> lebar;
     }
+    
+    void hitungluas()
+    {
+        luas = panjang * lebar;
+    }
+
     void outputdata(){
         cout << "Tampilkan Luas = " << luas << endl;
     }
-
-
     
 };
 
